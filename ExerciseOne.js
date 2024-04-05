@@ -19,27 +19,37 @@
 //     console.log(itemThree);
 // }
 // FunctionOne();
-
-// 3-misol
-var itemNumberOne = 11;
-var itemBoolean = false;
-var itemString = "Hello Maqsud";
-var itemUndefined = undefined;
-var itemNumberTwo = 1;
-
-var sum = itemNumberOne + itemNumberTwo;
-console.log("Yig'indisi: ", sum);
-
-var addString = itemString + "Qalesiz?";
-console.log("2 ta stringni yig'indisi: ", addString);
-
-var IsTrue = itemBoolean && true;
-console.log("Boolean bilan ishlash: ", IsTrue);
-if (itemUndefined === undefined) {
-    console.log("itemUndefined is undefined");
-}
-else {
-    console.log("itemUndefined is defined");
-}
-
-
+// // 3-misol
+// let itemNumberOne:number = 11;
+// let itemBoolean: boolean = false;
+// let itemString: string = "Hello Maqsud"
+// let itemUndefined: undefined = undefined;
+// const itemNumberTwo: number =  1;
+// const sum: number = itemNumberOne + itemNumberTwo;
+// console.log("Yig'indisi: ", sum);
+// const addString:string = itemString +  " Qalesiz?";
+// console.log("2 ta stringni yig'indisi: " ,addString)
+// const IsTrue: boolean = itemBoolean && true
+// console.log("Boolean bilan ishlash: ", IsTrue)
+// if(itemUndefined === undefined){
+//     console.log("itemUndefined is undefined");
+// }
+// else{
+//     console.log("itemUndefined is defined");
+// }
+// 4-misol
+var a = 15;
+// a = "maqsud"; // Error beradi
+console.log("a = ", a);
+// 5-misol
+var item5 = 7;
+console.log("item5 ni type", typeof item5);
+// item5 = "maqsud"; // typeni o'zgartirib bumaydi error beradi
+console.log("qiymatini O'zgartirib tpeni kuramz", typeof item5);
+// 6-mosil
+var itemString6 = "1";
+var itemNumber6 = parseInt(itemString6);
+console.log("Stringni typeni uzgartirdik", itemNumber6);
+var itemNumber61 = 1;
+var itemString61 = itemNumber6.toString();
+console.log("Stringni typeni uzgartirdik", itemNumber61);

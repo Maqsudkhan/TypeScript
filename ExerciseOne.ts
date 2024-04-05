@@ -55,5 +55,22 @@ let a:number = 15;
 console.log("a = ", a);
 
 
+// 5-misol
+let item5 = 7;
+console.log("item5 ni type", typeof item5);
+
+// item5 = "maqsud"; // typeni o'zgartirib bumaydi error beradi
+console.log("qiymatini O'zgartirib tpeni kuramz", typeof item5);
+
+
+// 6-mosil
+let itemString6: string = "1";
+let itemNumber6: number = parseInt(itemString6);
+console.log("Stringni typeni uzgartirdik", itemNumber6);
+
+let itemNumber61: number = 1
+let itemString61: string = itemNumber6.toString();
+console.log(itemNumber61);
+
 
 
