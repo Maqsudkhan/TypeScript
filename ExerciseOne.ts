@@ -50,3 +50,10 @@
 
 // 4-misol
 
+let a:number = 15;
+// a = "maqsud"; // Error beradi
+console.log("a = ", a);
+
+
+
+
