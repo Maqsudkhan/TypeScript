@@ -37,23 +37,68 @@
 // else{
 //     console.log("itemUndefined is defined");
 // }
-
-
-// 4-misol
-var a = 15;
-// a = "maqsud"; // Error beradi
-console.log("a = ", a);
-
-
-// 5-misol
-var item5 = 7;
-console.log("item5 ni type", typeof item5);
-// item5 = "maqsud"; // typeni o'zgartirib bumaydi error beradi
-console.log("qiymatini O'zgartirib tpeni kuramz", typeof item5);
-// 6-mosil
-var itemString6 = "1";
-var itemNumber6 = parseInt(itemString6);
-console.log("Stringni typeni uzgartirdik", itemNumber6);
-var itemNumber61 = 1;
-var itemString61 = itemNumber6.toString();
-console.log("Stringni typeni uzgartirdik", itemNumber61);
+// // 4-misol
+// let a:number = 15;
+// // a = "maqsud"; // Error beradi
+// console.log("a = ", a);
+// // 5-misol
+// let item5 = 7;
+// console.log("item5 ni type", typeof item5);
+// // item5 = "maqsud"; // typeni o'zgartirib bumaydi error beradi
+// console.log("qiymatini O'zgartirib tpeni kuramz", typeof item5);
+// // 6-mosil
+// let itemString6: string = "1";
+// let itemNumber6: number = parseInt(itemString6);
+// console.log("Stringni typeni uzgartirdik", itemNumber6);
+// let itemNumber61: number = 1
+// let itemString61: string = itemNumber6.toString();
+// console.log(itemNumber61);
+// // 7 - misol
+// type User = {
+//     id: number;
+//     FirstName: string;
+//     LastName: string;
+// };
+// const user: User = {
+//     id: 1,
+//     FirstName: "Maqsud",
+//     LastName: "To'rayev",
+// }
+// function PrintUserInfo(user: User){
+//     console.log(`Id: ${user.id} \nFirstName: ${user.FirstName} \nLastNmae: ${user.LastName}`)
+// }
+// PrintUserInfo(user);
+// // 8-misol
+// const arr: string[] = ["maqsud", "elyor", "sardor", "akram", "ergash"];
+// arr.push("eshmat");
+// arr.push("shermat");
+// arr.push("kimdir");
+// arr.pop(); // oxiridagi elementni olib tashllaydi
+// for (const c of arr){
+//     console.log(c);
+// };
+// const searchName = "maqsud";
+// const isNameInArray = arr.includes(searchName);
+// console.log(isNameInArray);
+// console.log(`Is ${searchName} in the array? ${isNameInArray ? "Yes" : "No"}`);
+// const indexOfMaqsud = arr.indexOf("maqsud");
+// console.log(`maqsud ${indexOfMaqsud}-indexda turubdi`);
+// if(indexOfMaqsud !== -1){
+//     arr.splice(indexOfMaqsud);
+// }
+// console.log(arr);
+// 9-misol
+// enum color{
+//     red,
+//     green,
+//     white,
+//     blue,
+// }
+// console.log(color);
+// let selectedColor: color = color.white;
+// console.log(selectedColor);
+// // 10-misol
+// var isNull = null;
+// var isUndefined = undefined;
+// console.log("isNull:", isNull);
+// console.log("isUndefined:", isUndefined);
