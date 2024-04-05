@@ -37,10 +37,14 @@
 // else{
 //     console.log("itemUndefined is defined");
 // }
+
+
 // 4-misol
 var a = 15;
 // a = "maqsud"; // Error beradi
 console.log("a = ", a);
+
+
 // 5-misol
 var item5 = 7;
 console.log("item5 ni type", typeof item5);
